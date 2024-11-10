@@ -1,0 +1,39 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url("https://fonts.googleapis.com/css2?family=Geist:wght@100..900&display=swap");
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    font-family: "Geist", sans-serif;
+  }
+
+  header {
+    background: rgba(27, 27, 27, 0.15);
+    box-shadow: 0 8px 32px 0 rgb(5, 28, 21);
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+  }
+
+  .body__background {
+    background: rgb(3, 7, 18);
+  }
+
+  h3 {
+    font-family: "Calistoga", serif;
+    font-weight: 500;
+  }
+
+  .glass {
+    background: rgba(255, 255, 255, 0.05);
+    box-shadow: 0 8px 32px 0 rgb(5, 28, 21);
+    backdrop-filter: blur(2px);
+    -webkit-backdrop-filter: blur(2px);
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+  }
+}

@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/src/output.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Geist:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Calistoga&family=Geist:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+    <title>Document</title>
+  </head>
+  <body class="body__background px-10 py-5 max-w-screen-lg mx-auto">
+    <header
+      class="flex justify-between items-center fixed top-0 left-0 right-0 py-5 px-20 max-sm:px-5"
+    >
+      <div>
+        <a href="#home" class="text-white font-bold text-2xl"> Xav </a>
+      </div>
+
+      <nav>
+        <ul class="flex gap-5 text-white font-medium max-sm:gap-3">
+          <li><a href="#about">about</a></li>
+          <li><a href="#projects">projects</a></li>
+          <li><a href="#contact">contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main
+      class="flex justify-center items-center gap-5 max-sm:flex-col-reverse max-sm:mt-5 pt-28 max-sm:pt-10"
+      id="home"
+    >
+      <section class="">
+        <h3 class="text-6xl font-bold text-white max-sm:text-4xl">
+          hello, my name is <span class="text-green-400">marc xavier</span> 👋
+        </h3>
+        <p class="text-gray-300 font-medium text-md my-5 max-sm:text-sm">
+          I am a Backend Developer with expertise in building robust server-side
+          applications based in Cebu, Philippines 📍
+        </p>
+        <div class="flex gap-4">
+          <div class="pill">
+            <img
+              src="https://skillicons.dev/icons?i=js,svelte,astro,mysql,nodejs,expressjs"
+            />
+          </div>
+        </div>
+      </section>
+      <section>
+        <img
+          src="/src/img/xav.png"
+          alt="Xav"
+          class="rounded-xl object-cover"
+          width="500"
+          height="500"
+        />
+      </section>
+    </main>
+    <section
+      class="mt-52 mb-20 flex justify-between gap-10 items-center max-sm:flex-col-reverse max-sm:gap-5"
+    >
+      <div class="w-6/12 max-sm:w-full">
+        <img
+          src="https://i.pinimg.com/originals/74/63/59/74635989b770a38189fff31a8ef152ea.gif"
+          alt=""
+        />
+      </div>
+      <div class="w-6/12 max-sm:w-full" id="about">
+        <h3 class="text-green-400 text-6xl text-center max-sm:text-4xl">
+          About me
+        </h3>
+        <p class="text-gray-300 my-5 text-justify max-sm:text-sm">
+          I'm a passionate and hardworking backend developer with a strong
+          foundation in logical thinking and problem-solving.
+
+          <br />
+          <br />
+          I thrive on tackling complex challenges, designing efficient
+          solutions, and continually refining my skills to deliver high-quality,
+          reliable backend systems. My goal is to create robust, scalable
+          applications that seamlessly support user needs and enhance overall
+          functionality.
+        </p>
+      </div>
+    </section>
+    <section class="mb-32 mt-48 p-10 max-sm:p-0">
+      <h3 class="text-center text-green-400 font-bold text-6xl max-sm:text-4xl">
+        Skills
+      </h3>
+      <div class="my-10 justify-center flex gap-5 mt-3 max-sm:flex-col">
+        <div class="rounded-md border border-slate-700 p-5 glass">
+          <h3 class="text-green-400 font-bold text-2xl max-sm:text-lg">
+            Hardware
+          </h3>
+          <p class="text-sm text-slate-500 mt-3">
+            I’m skilled at working with processors, memory, storage, and
+            peripherals, and how to assemble, troubleshoot, and maintain.
+          </p>
+          <div class="mt-5">
+            <img src="https://skillicons.dev/icons?i=windows,linux" alt="" />
+          </div>
+        </div>
+        <div class="rounded-md border border-slate-700 p-5 glass">
+          <h3 class="text-green-400 font-bold text-2xl max-sm:text-lg">
+            Full Stack
+          </h3>
+          <p class="text-sm text-slate-500 mt-3">
+            I am committed to staying current with the latest technologies to
+            construct high-performing applications that are compatible across a
+            range of devices.
+          </p>
+          <div class="mt-5">
+            <img
+              src="https://skillicons.dev/icons?i=js,svelte,astro,mysql"
+              alt=""
+            />
+          </div>
+        </div>
+        <div class="rounded-md border border-slate-700 p-5 glass">
+          <h3 class="text-green-400 font-bold text-2xl max-sm:text-lg">
+            Rest Api
+          </h3>
+          <p class="text-sm text-slate-500 mt-3">
+            I understand the principles of REST and how to structure endpoints
+            to manage resources effectively using HTTP methods like GET, POST,
+            PUT, and DELETE.
+          </p>
+          <div class="mt-5">
+            <img src="https://skillicons.dev/icons?i=nodejs,expressjs" alt="" />
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="projects">
+      <div>
+        <h3 class="text-green-400 text-5xl">Featured projects</h3>
+      </div>
+      <div class="my-10 flex gap-5 max-sm:flex-col">
+        <div class="border border-slate-700 p-10 rounded-md max-sm:p-4">
+          <img
+            src="/src/img/image.png"
+            alt=""
+            class="object-cover rounded-sm"
+          />
+          <p class="text-white my-4 font-bold">Grading System</p>
+          <p class="text-slate-500 text-sm">
+            The system enables educators to input, calculate, and track grades
+            effortlessly, while providing students with real-time access to
+            their performance data.
+          </p>
+          <div class="flex justify-start items-start gap-2 mt-3">
+            <div
+              class="rounded-md bg-slate-900 text-xs text-green-400 px-2 py-1"
+            >
+              expressjs
+            </div>
+            <div
+              class="rounded-md bg-slate-900 text-xs text-green-400 px-2 py-1"
+            >
+              svelte
+            </div>
+            <div
+              class="rounded-md bg-slate-900 text-xs text-green-400 px-2 py-1"
+            >
+              nodejs
+            </div>
+            <div
+              class="rounded-md bg-slate-900 text-xs text-green-400 px-2 py-1"
+            >
+              mysql
+            </div>
+          </div>
+          <a
+            href=""
+            class="text-white bg-slate-800 px-4 py-2 rounded-md text-xs flex items-center gap-2 mt-4 max-w-24"
+          >
+            <img
+              src="https://skillicons.dev/icons?i=github"
+              alt=""
+              class="w-5"
+            />
+            Github
+          </a>
+        </div>
+        <div class="border border-slate-700 p-10 rounded-md max-sm:p-4">
+          <img
+            src="/src/img/image.png"
+            alt=""
+            class="object-cover rounded-sm"
+          />
+          <p class="text-white my-4 font-bold">Grading System</p>
+          <p class="text-slate-500 text-sm">
+            The system enables educators to input, calculate, and track grades
+            effortlessly, while providing students with real-time access to
+            their performance data.
+          </p>
+          <div class="flex justify-start items-start gap-2 mt-3">
+            <div
+              class="rounded-md bg-slate-900 text-xs text-green-400 px-2 py-1"
+            >
+              expressjs
+            </div>
+            <div
+              class="rounded-md bg-slate-900 text-xs text-green-400 px-2 py-1"
+            >
+              svelte
+            </div>
+            <div
+              class="rounded-md bg-slate-900 text-xs text-green-400 px-2 py-1"
+            >
+              nodejs
+            </div>
+            <div
+              class="rounded-md bg-slate-900 text-xs text-green-400 px-2 py-1"
+            >
+              mysql
+            </div>
+          </div>
+          <a
+            href=""
+            class="text-white bg-slate-800 px-4 py-2 rounded-md text-xs flex items-center gap-2 mt-4 max-w-24"
+          >
+            <img
+              src="https://skillicons.dev/icons?i=github"
+              alt=""
+              class="w-5"
+            />
+            Github
+          </a>
+        </div>
+      </div>
+    </section>
+    <section class="my-20" id="contact">
+      <h3 class="text-green-400 text-5xl">Contact</h3>
+
+      <div class="my-20 flex justify-center max-sm:flex-col">
+        <form action="https://formsubmit.co/xav1234g@gmail.com" method="POST">
+          <div class="flex gap-4 mb-10 max-sm:flex-col">
+            <input
+              type="text"
+              name="name"
+              required
+              class="bg-transparent border border-slate-600 rounded-md py-2 px-3 outline-none text-white"
+              placeholder="name"
+            />
+            <input
+              type="email"
+              name="email"
+              class="bg-transparent border border-slate-600 rounded-md py-2 px-3 outline-none text-white"
+              required
+              placeholder="email"
+            />
+          </div>
+          <textarea
+            placeholder="Your Message"
+            class="form-control w-full bg-transparent border border-slate-600 rounded-md py-2 px-3 outline-none text-white"
+            name="message"
+            rows="10"
+            required
+          ></textarea>
+          <button
+            type="submit"
+            class="bg-slate-700 text-white text-center my-5 w-full rounded-md py-3"
+          >
+            Send Message
+          </button>
+        </form>
+      </div>
+    </section>
+    <footer>
+      <div class="flex justify-between items-center">
+        <p class="text-white">© 2024 All rights reserved.</p>
+      </div>
+    </footer>
+  </body>
+  <script src="/dist/script.js"></script>
+</html>
