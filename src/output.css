@@ -564,7 +564,7 @@ body {
 
 header {
   background: rgba(27, 27, 27, 0.15);
-  box-shadow: 0 8px 32px 0 rgb(5, 28, 21);
+  box-shadow: 0 3px 10px 0 rgba(5, 28, 21, 0.882);
   backdrop-filter: blur(20px);
   -webkit-backdrop-filter: blur(20px);
 }
@@ -574,8 +574,8 @@ header {
 }
 
 h3 {
-  font-family: "Calistoga", serif;
-  font-weight: 500;
+  font-family: "Inconsolata", monospace;
+  font-weight: bold;
 }
 
 .glass {
@@ -601,6 +601,10 @@ h3 {
 
 .top-0 {
   top: 0px;
+}
+
+.z-10 {
+  z-index: 10;
 }
 
 .mx-auto {
@@ -658,10 +662,6 @@ h3 {
 
 .mt-52 {
   margin-top: 13rem;
-}
-
-.mt-8 {
-  margin-top: 2rem;
 }
 
 .flex {
@@ -792,6 +792,11 @@ h3 {
   padding-right: 0.5rem;
 }
 
+.px-20 {
+  padding-left: 5rem;
+  padding-right: 5rem;
+}
+
 .px-3 {
   padding-left: 0.75rem;
   padding-right: 0.75rem;
@@ -822,13 +827,8 @@ h3 {
   padding-bottom: 1.25rem;
 }
 
-.px-20 {
-  padding-left: 5rem;
-  padding-right: 5rem;
-}
-
-.pt-28 {
-  padding-top: 7rem;
+.pt-36 {
+  padding-top: 9rem;
 }
 
 .text-center {
@@ -935,8 +935,8 @@ h3 {
     padding-right: 1.25rem;
   }
 
-  .max-sm\:pt-10 {
-    padding-top: 2.5rem;
+  .max-sm\:pt-24 {
+    padding-top: 6rem;
   }
 
   .max-sm\:text-4xl {

@@ -14,7 +14,7 @@
 
   header {
     background: rgba(27, 27, 27, 0.15);
-    box-shadow: 0 8px 32px 0 rgb(5, 28, 21);
+    box-shadow: 0 3px 10px 0 rgba(5, 28, 21, 0.882);
     backdrop-filter: blur(20px);
     -webkit-backdrop-filter: blur(20px);
   }
@@ -24,8 +24,8 @@
   }
 
   h3 {
-    font-family: "Calistoga", serif;
-    font-weight: 500;
+    font-family: "Inconsolata", monospace;
+    font-weight: bold;
   }
 
   .glass {
